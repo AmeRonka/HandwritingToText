@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset i cache
+data/
+*.npy
+*.npz
+
+# Modele wytrenowane
+models/saved/
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+
+# Wykresy i wizualizacje
+*.png
+*.jpg
+*.jpeg
+*.gif
+!samples/*.png  # Zachowaj przykładowe obrazy jeśli istnieją
+
+# Logi
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Claude Code
+CLAUDE.md
+memory/
