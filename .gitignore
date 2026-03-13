@@ -42,10 +42,8 @@ data/
 *.npz
 
 # Modele wytrenowane
-models/saved/
 *.h5
 *.keras
-*.pth
 *.pt
 *.ckpt
 
@@ -71,3 +69,6 @@ Thumbs.db
 # Claude Code
 CLAUDE.md
 memory/
+
+# Local config
+roi_config.json
